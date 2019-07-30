@@ -1,0 +1,25 @@
+
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  cursor: url("./assets/cursor/miku1.png"), auto;
+}
+
+
+* {
+  font-family: 微软雅黑, serif;
+}
+
+
+a, link, button, menu {
+  cursor: url("./assets/cursor/miku2.png"), auto;
+}
+
+
+
+
+

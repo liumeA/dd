@@ -1,0 +1,18 @@
+
+.menu {
+  float: right;
+  /*width: 120px;*/
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.cursor {
+  cursor: url("./../../assets/cursor/miku2.png"), auto;
+}
