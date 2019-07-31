@@ -1,16 +1,33 @@
-
+.top {
+  position: fixed;
+}
 .menu {
   float: right;
   /*width: 120px;*/
   text-align: center;
+  background: transparent;
+  line-height: 64px;
+  right: 0;
+  position: fixed;
 }
 
 .logo {
   width: 120px;
-  height: 31px;
-  background: rgba(255, 255, 255, 0.2);
-  margin: 16px 24px 16px 0;
+  height: 64px;
   float: left;
+}
+
+.logol {
+  color: #000;
+}
+
+.logol:hover {
+  color: #39c5bb;
+}
+
+.item {
+  text-align: center;
+  width: 120px;
 }
 
 .cursor {

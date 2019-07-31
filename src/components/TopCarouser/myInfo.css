@@ -1,0 +1,111 @@
+.avatar {
+  position: relative;
+  border-radius: 50%;
+  transition: all 1500ms linear;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.avatar:hover {
+  /*transform: rotate(360deg);*/
+  transform: rotate(360deg);
+  transition: all 1500ms linear;
+  cursor: url("../../assets/cursor/miku2.png"), auto;
+}
+
+.avatar:active {
+  transform: rotate(-360deg);
+}
+
+.imgs {
+  display: inline-block;
+}
+
+.img {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+}
+
+/*.img_block:hover .myWechat{*/
+/*  display: inline;*/
+/*}*/
+
+.wechat, .qq, .sina, .github {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+}
+
+.wechat:hover .myWechat, .qq:hover .myQq, .github:active .mygit {
+  display: inline;
+
+  /*cursor: url("../../assets/cursor/miku2.png"), auto;*/
+}
+
+.sina:active .mysina {
+  position: fixed;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: url("../../assets/carouser/mysina.gif");
+  display: inline;
+}
+
+.icon {
+  font-size: 32px;
+  /*display: inline-block;*/
+}
+
+.icon:hover {
+  cursor: url("../../assets/cursor/miku2.png"), auto;
+}
+
+.myimg {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  right: 70px;
+  top: 30px;
+}
+
+.mygif {
+  position: fixed;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+
+}
+
+
+.myWechat, .myQq, .mygit, .mysina {
+  display: none;
+}
+
+/*.div {*/
+/*  position: relative;*/
+/*  bottom: 15px;*/
+/*}*/
+
+
+.logos {
+  width: 192px;
+  background: #ffffff32;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+.midd {
+  position: relative;
+  top: calc(40vh);
+  color: #ffffff;
+  text-align: center;
+
+}

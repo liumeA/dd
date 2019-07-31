@@ -1,0 +1,29 @@
+.top {
+  position: relative;
+  bottom: 64px;
+}
+
+
+.carousel1 {
+  background: url("../../assets/carouser/miku.jpg") no-repeat center 0;
+  height: calc(100vh);
+  text-align: center;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+
+}
+
+.carousel2 {
+  background: url("../../assets/carouser/蝶祈.jpg") no-repeat center 0;
+  height: calc(100vh);
+  text-align: center;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+
+
+
+
+
+
+

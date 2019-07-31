@@ -1,0 +1,32 @@
+.header {
+  position: fixed;
+  z-index: 9999;
+  background: transparent;
+  transition: all 500ms linear;
+  width: 100%;
+  height: 64px;
+
+}
+
+.header:hover {
+  background: #fff;
+  transition: all 500ms linear;
+  border-radius: 32px;
+}
+
+.header_c {
+  position: fixed;
+  z-index: 9999;
+  background: #f7f7f7;
+  transition: all 500ms linear;
+  width: 100%;
+  height: 64px;
+}
+
+.header_c:hover {
+  background: #f7f7f7;
+  transition: all 500ms linear;
+  border-radius: 32px;
+}
+
+

@@ -1,3 +1,9 @@
+const routes = require('./src/routes');
+const pageRouter = routes.routes;
+
+const themes = require('./src/theme');
+const theme = themes.theme;
+
 // ref: https://umijs.org/config/
 export default {
   treeShaking: true,
@@ -7,7 +13,7 @@ export default {
       antd: true,
       dva: true,
       dynamicImport: { webpackChunkName: true },
-      title: 'dd',
+      title: 'xiukid520',
       dll: true,
       locale: {
         enable: false,
@@ -25,4 +31,13 @@ export default {
       },
     }],
   ],
+  routes: pageRouter,
+  proxy: {
+    '/api': {
+      target: 'http://139.196.77.225',
+      pathRewrite: { '^/api': '' },
+      changeOrigin: true,
+    },
+  },
+  theme: theme,
 };
