@@ -27,9 +27,6 @@
   display: inline-block;
 }
 
-/*.img_block:hover .myWechat{*/
-/*  display: inline;*/
-/*}*/
 
 .wechat, .qq, .sina, .github {
   height: 32px;
@@ -107,5 +104,4 @@
   top: calc(40vh);
   color: #ffffff;
   text-align: center;
-
 }
